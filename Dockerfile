@@ -1,5 +1,5 @@
 # Utilisez une image Node.js pour Angular
-FROM node:21.1.0 as build
+FROM node:18.17.1 as build
 
 WORKDIR /app
 COPY . .
