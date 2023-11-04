@@ -11,6 +11,6 @@ FROM nginx:1.25.3
 
 COPY --from=build /app/dist/summer-workshop-angular /usr/share/nginx/html
 
-EXPOSE 80
+EXPOSE 4200
 
 CMD ["nginx", "-g", "daemon off;"]
